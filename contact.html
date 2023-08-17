@@ -11,6 +11,15 @@ body {
   margin: 0;
 }
 
+.body b {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: rgb(0, 0, 0); /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px 25px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
 .header {
   padding: 80px;
   text-align: center;
@@ -55,6 +64,7 @@ body {
 
 <body>
 
+
 <div class="header">
     <h1>Contact Me</h1>
 </div>
@@ -67,6 +77,14 @@ body {
     <a href="projects.html">Projects</a>
     <a href="contact.html" class="right">Contact</a>
 </div>
+
+
+<div class="body">
+    <a href="https://github.com/PWarwickDev">Github</a>
+    <img src="github-mark.png">
+</div>
+
+
 
 </body>
 </html>
