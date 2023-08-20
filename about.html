@@ -11,6 +11,14 @@ body {
   margin: 0;
 }
 
+.body b {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: rgb(0, 0, 0); /* White text color */
+    padding: 20px 25px; /* Add some padding */
+    font-size: 25px;
+}
+
 .header {
   padding: 80px;
   text-align: center;
@@ -66,6 +74,22 @@ body {
     <a href="about.html">About</a>
     <a href="projects.html">Projects</a>
     <a href="contact.html" class="right">Contact</a>
+</div>
+
+<div class="body">
+    <b>
+      <p>
+        My name is Paul Warwick, and I am currently attending the University of Massachusetts
+        Lowell as a computer science major. I chose to switch from business administration 
+        after my first year, and haven't looked back since, as I've found passion within programming 
+        and computer science.
+      </p>
+
+      <p>
+        This website serves as a demonstration of my growth as a programmer. Though I'm mainly focused
+        on C and C++, this website stands as my first project in HTML and CSS. 
+      </p>
+    </b>
 </div>
 
 </body>
